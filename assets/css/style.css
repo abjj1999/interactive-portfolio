@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Links--header{
+  display: flex;
+  margin: 1rem;
+  justify-content: space-evenly;
+  border-bottom: 0.1rem solid rgb(143, 219, 143);
+  line-height: 1.5rem;
+}
+
+.Links--header a{
+  text-decoration: none;
+  color: rgb(143, 219, 143)
+}
+
+.Links--header a:hover{
+  color:rgb(73, 211, 73);
+  transition: 0.4s linear;
+}
+
+.navbar {
+  margin: 1rem;
+  padding: 0.3rem;
+}
+.logo {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-list {
+  list-style: none;
+}
+
+.navbar-list a {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  color: black;
+}
+
+.navbar-list a:hover {
+  background-color: rgb(143, 219, 143);
+  background-size:cover;
+  border-radius: 1rem;
+  padding: 0.7rem;
+  transition: 0.3s ease;
+}
+
+
+.hero{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-text-container{
+  display: flex;
+  align-items: center;
+}
+
+.typing{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 3.5rem;
+}
+
+.my-name-is{
+  font-size: 1.5rem;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+.name {
+  font-weight: bold;
+  font-family: 'Share Tech Mono', monospace;
+  
+  
+  
+}
+
+.first-name {
+  background-color: rgb(143, 219, 143);
+  border-radius: 1rem;
+  padding: 0.3rem;
+}
+
+.last-name {
+  color:rgb(143, 219, 143);
+}
+
+
+
+.qualities {
+ display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 1rem;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.quality--item i {
+  color:#9c79ca;
+}
+
+.quality-title {
+  color:black;
+  line-height: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card--container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 2.5rem;
+}
+
+.my-img{
+  width: 25rem;
+}
+
+.card-title{
+  color: rgb(109, 211, 109);
+  font-family: 'Montserrat', sans-serif;
+
+}
+.card-text{
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.section-title{
+  color: black;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: underline;
+}
+
+.card-body{
+  display: flexbox;
+  justify-content: center;
+  line-height: 2rem;
+  align-self: center;
+  margin: 1rem;
+}
+
+.project-name{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.project-container{
+  width: 450px;
+    margin: 1rem;
+    border-radius: 5px;
+
+}
+
+
